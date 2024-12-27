@@ -7,8 +7,6 @@ tags: RL, LLM
 categories: Machine Learning
 giscus_comments: true
 related_posts: false
-toc:
-    sidebar: left
 ---
 
 
