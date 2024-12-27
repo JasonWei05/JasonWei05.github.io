@@ -29,18 +29,18 @@ Let $r: \mathcal{S} \times \mathcal{A} \rightarrow \mathbb{R}$ be a reward funct
 
 $$\theta^* = \text{argmax}_\theta \mathbb{E}_{(s,a)\sim p_\theta(s,a)}\left[\sum_{t=1}^T r(s_t,a_t)\right]. $$ 
 
-Let $J(\theta) = \mathbb{E}_{(s,a)\sim p_\theta(s,a)}\left[\sum_{t=1}^T r(s_t,a_t)\right]$ be our objective function that we want to maximize. To make the notation cleaner, let's overload our reward function to accept a trajectory like $\tau$ so that $r(\tau) = \sum_{t=1}^T r(s_t,a_t)$. Then 
+Let $J(\theta) = \mathbb{E}_{(s,a)\sim p_\theta(s,a)}\left[\sum_{t=1}^T r(s_t,a_t)\right]$ be our objective function that we want to maximize. To make the notation cleaner, we introduce the return function $R$ so that $R(\tau) = \sum_{t=1}^T r(s_t,a_t)$. Then 
 
-$$J(\theta) = \int p_\theta(\tau) r(\tau) d\tau.$$
+$$J(\theta) = \int p_\theta(\tau) R(\tau) d\tau.$$
 
 To optimize $J(\theta)$, we would like to use a first-order (gradient) method, so let's calculate $\nabla_\theta J(\theta).$
 
 $$
 \begin{aligned}
-    \nabla_\theta J(\theta) & = \int \nabla_\theta p_\theta(\tau) r(\tau) d\tau\\
-    & = \int p_\theta(\tau) \frac{\nabla_\theta p_\theta(\tau)}{p_\theta(\tau)} r(\tau) d\tau \quad \text{(multiply and divide by $p_\theta(\tau)$)}\\
-    & = \int p_\theta(\tau) \nabla_\theta \log (p_\theta(\tau)) r(\tau) d\tau \quad \text{(by derivative of log)} \\
-    & = \mathbb{E}_{\tau \sim p_\theta(\tau)}[\nabla_\theta \log (p_\theta(\tau)) r(\tau)]
+    \nabla_\theta J(\theta) & = \int \nabla_\theta p_\theta(\tau) R(\tau) d\tau\\
+    & = \int p_\theta(\tau) \frac{\nabla_\theta p_\theta(\tau)}{p_\theta(\tau)} R(\tau) d\tau \quad \text{(multiply and divide by $p_\theta(\tau)$)}\\
+    & = \int p_\theta(\tau) \nabla_\theta \log (p_\theta(\tau)) R(\tau) d\tau \quad \text{(by derivative of log)} \\
+    & = \mathbb{E}_{\tau \sim p_\theta(\tau)}[\nabla_\theta \log (p_\theta(\tau)) R(\tau)]
 \end{aligned}
 $$
 Let's now expand $\nabla_\theta \log p_\theta(\tau)$. 
@@ -70,8 +70,13 @@ with step size $\alpha$. This is the REINFORCE algorithm (Williams 1992). Sample
 This algorithm will work in theory, but there are many improvements that we can make to reduce variance. 
 
 ### Rewards To Go
+We can reformulate $\nabla_\theta J(\theta)$ as 
 
+$$
+    \nabla_\theta J(\theta) \approx \frac{1}{N} \sum_{i=1}^N  \sum_{t=1}^T \nabla \log\pi_\theta (a_{i,t}|s_{i,t})  \left(\sum_{t'=1}^T r(s_{i,t'},a_{i,t'})\right).
+$$ 
 
+Notice that at time step $t$, we are still summing over all rewards from time steps $t' < t.$ These rewards should not 
 
 
 ### Trust Region Policy Optimization
