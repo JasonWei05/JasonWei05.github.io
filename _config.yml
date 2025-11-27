@@ -1,0 +1,25 @@
+title: Jason Wei
+description: AI Researcher
+theme: null
+baseurl: ""
+url: "https://JasonWei05.github.io"
+
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "reviews"
+    values:
+      layout: "post"
+
+markdown: kramdown
+
