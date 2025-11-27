@@ -4,7 +4,6 @@ title: Blog
 permalink: /blog.html
 ---
 
-Here are my thoughts on AI, research, and technology.
 
 <ul class="post-list">
   {% for post in site.posts %}

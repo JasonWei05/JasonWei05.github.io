@@ -4,6 +4,10 @@ theme: null
 baseurl: ""
 url: "https://JasonWei05.github.io"
 
+social_links:
+  x: https://x.com/jaswwei
+  linkedin: https://www.linkedin.com/in/jason-w-wei/
+
 collections:
   reviews:
     output: true
@@ -22,4 +26,3 @@ defaults:
       layout: "post"
 
 markdown: kramdown
-

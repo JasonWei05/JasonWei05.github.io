@@ -95,6 +95,26 @@ blockquote {
   font-style: italic;
 }
 
+/* Table of Contents */
+#markdown-toc {
+  border: 1px solid var(--border-color);
+  padding: 15px 20px;
+  background-color: #f9f9f9;
+  list-style: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#markdown-toc li {
+  margin-bottom: 5px;
+}
+
+#markdown-toc ul {
+  margin-bottom: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
 /* Posts & Lists */
 .post-list {
   list-style: none;
@@ -162,4 +182,28 @@ blockquote {
   color: var(--nav-color);
   font-size: 0.9rem;
   text-align: center;
+}
+
+.social-links {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  color: var(--nav-color);
+  display: inline-block;
+  line-height: 0;
+}
+
+.social-links a:hover {
+  color: var(--link-color);
+}
+
+.social-links svg {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  transition: fill 0.2s;
 }

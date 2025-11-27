@@ -6,6 +6,9 @@ tags: [Transformers, NLP]
 paper_url: "https://arxiv.org/abs/1706.03762"
 ---
 
+* Table of Contents
+{:toc}
+
 This is a seminal paper that introduced the **Transformer** architecture.
 
 ### Key Insights
