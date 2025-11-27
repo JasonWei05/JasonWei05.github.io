@@ -4,7 +4,15 @@ layout: default
 
 <article class="post">
   <header class="post-header">
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">
+      {{ page.date | date: "%B %-d, %Y" }}
+      {% if page.tags %}
+        &nbsp;
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      {% endif %}
+    </p>
   </header>
 
   <div class="post-content">
