@@ -35,7 +35,7 @@ permalink: /
       <div class="history-header-text">
         <div class="history-title">Researcher</div>
         <div class="history-organization"><a href="https://rllm-project.com">rLLM</a>/<a href="https://agentica-project.com">Agentica</a></div>
-        <div class="history-date">Summer 2025-</div>
+        <div class="history-date">Summer 2025 -</div>
       </div>
     </div>
     <div class="history-description">
@@ -49,7 +49,7 @@ permalink: /
       <div class="history-header-text">
         <div class="history-title">Research Assistant</div>
         <div class="history-organization">CMU advised by Professor Steven Wu</div>
-        <div class="history-date">Fall 2025-</div>
+        <div class="history-date">Fall 2025 -</div>
       </div>
     </div>
     <div class="history-description">
@@ -77,7 +77,7 @@ permalink: /
       <div class="history-header-text">
         <div class="history-title">Started School</div>
         <div class="history-organization">CMU SCS</div>
-        <div class="history-date">2023-</div>
+        <div class="history-date">Fall 2023 -</div>
       </div>
     </div>
     <div class="history-description">
