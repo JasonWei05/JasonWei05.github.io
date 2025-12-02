@@ -25,7 +25,7 @@ permalink: /
       </div>
     </div>
     <div class="history-description">
-      <p>Description.</p>
+      <p>Applied ML Team</p>
     </div>
   </div>
 
@@ -39,7 +39,7 @@ permalink: /
       </div>
     </div>
     <div class="history-description">
-      <p>Description.</p>
+      <p>Building rLLM and post-training AI agents</p>
     </div>
   </div>
 
@@ -53,7 +53,7 @@ permalink: /
       </div>
     </div>
     <div class="history-description">
-      <p>Description.</p>
+      <p>Analyzing chain of thought and LLM computational capacity; Developing RL for LLM algorithms</p>
     </div>
   </div>
 
@@ -67,7 +67,7 @@ permalink: /
       </div>
     </div>
     <div class="history-description">
-      <p>Description.</p>
+      <p>Built a RAG chatbot using sparse retrieval on Reconciliations Team</p>
     </div>
   </div>
 
@@ -81,7 +81,7 @@ permalink: /
       </div>
     </div>
     <div class="history-description">
-      <p>Description.</p>
+      <p>Taking CS, ML, Math, and Systems classes</p>
     </div>
   </div>
   
