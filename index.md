@@ -17,7 +17,7 @@ permalink: /
 <div class="history">
   <div class="history-entry">
     <div class="history-header">
-      <img src="{{ '/assets/images/bytedance-logo.png' | relative_url }}" alt="ByteDance" class="history-logo" />
+      <img src="{{ '/assets/images/bytedance-logo.svg' | relative_url }}" alt="ByteDance" class="history-logo" />
       <div class="history-header-text">
         <div class="history-title">Research Scientist Intern</div>
         <div class="history-organization">ByteDance</div>

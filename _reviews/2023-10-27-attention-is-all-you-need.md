@@ -6,17 +6,3 @@ tags: [Transformers, NLP]
 paper_url: "https://arxiv.org/abs/1706.03762"
 ---
 
-* Table of Contents
-{:toc}
-
-This is a seminal paper that introduced the **Transformer** architecture.
-
-### Key Insights
-
-1.  **Self-Attention**: Replaces recurrence with attention mechanisms.
-2.  **Parallelization**: Allows for significantly faster training.
-
-> "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks..."
-
-The paper demonstrates that attention mechanisms alone are sufficient for state-of-the-art performance in translation tasks.
-

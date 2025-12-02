@@ -4,7 +4,7 @@ title: Paper Reviews
 permalink: /reviews.html
 ---
 
-Detailed reviews and summaries of interesting AI papers.
+My notes from papers I read
 
 <ul class="post-list">
   {% for review in site.reviews %}
