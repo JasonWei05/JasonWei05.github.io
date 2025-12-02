@@ -9,7 +9,7 @@ permalink: /
     <p>Hi, I'm Jason. I'm an ML researcher studying CS at CMU. I'm interested in RL, LLMs, ML systems, and statistics.</p>
   </div>
   <div class="about-image">
-    <img src="/imgs/profile_pic.jpeg" alt="Profile Picture" />
+    <img src="/_imgs/profile_pic.jpeg" alt="Profile Picture" />
   </div>
 </div>
 
@@ -17,7 +17,7 @@ permalink: /
 <div class="history">
   <div class="history-entry">
     <div class="history-header">
-      <img src="/imgs/bytedance-logo.png" alt="ByteDance" class="history-logo" />
+      <img src="/_imgs/bytedance-logo.png" alt="ByteDance" class="history-logo" />
       <div class="history-header-text">
         <div class="history-title">Research Scientist Intern</div>
         <div class="history-organization">ByteDance</div>
@@ -31,7 +31,7 @@ permalink: /
 
   <div class="history-entry">
     <div class="history-header">
-      <img src="/imgs/rllm-logo.png" alt="rllm/agentica" class="history-logo" />
+      <img src="/_imgs/rllm-logo.png" alt="rllm/agentica" class="history-logo" />
       <div class="history-header-text">
         <div class="history-title">Researcher</div>
         <div class="history-organization"><a href="https://rllm-project.com">rLLM</a>/<a href="https://agentica-project.com">Agentica</a></div>
@@ -45,7 +45,7 @@ permalink: /
 
   <div class="history-entry">
     <div class="history-header">
-      <img src="/imgs/cmu-logo.png" alt="CMU" class="history-logo" />
+      <img src="/_imgs/cmu-logo.png" alt="CMU" class="history-logo" />
       <div class="history-header-text">
         <div class="history-title">Research Assistant</div>
         <div class="history-organization">CMU advised by Professor Steven Wu</div>
@@ -59,7 +59,7 @@ permalink: /
 
   <div class="history-entry">
     <div class="history-header">
-      <img src="/imgs/amazon-logo.png" alt="Amazon" class="history-logo" />
+      <img src="/_imgs/amazon-logo.png" alt="Amazon" class="history-logo" />
       <div class="history-header-text">
         <div class="history-title">Software Engineer Intern</div>
         <div class="history-organization">Amazon</div>
@@ -73,7 +73,7 @@ permalink: /
 
   <div class="history-entry">
     <div class="history-header">
-      <img src="/imgs/cmu-logo.png" alt="CMU SCS" class="history-logo" />
+      <img src="/_imgs/cmu-logo.png" alt="CMU SCS" class="history-logo" />
       <div class="history-header-text">
         <div class="history-title">Started School</div>
         <div class="history-organization">CMU SCS</div>
