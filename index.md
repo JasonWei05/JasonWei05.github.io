@@ -6,7 +6,7 @@ permalink: /
 
 <div class="about-container">
   <div class="about-text">
-    <p>Hi, I'm Jason. I'm an ML researcher studying CS at CMU. I'm interested in RL, LLMs, and </p>
+    <p>Hi, I'm Jason. I'm an ML researcher studying CS at CMU. I'm interested in RL, LLMs, ML systems, and statistics.</p>
   </div>
   <div class="about-image">
     <img src="/imgs/profile_pic.jpeg" alt="Profile Picture" />
@@ -34,7 +34,7 @@ permalink: /
       <img src="/imgs/rllm-logo.png" alt="rllm/agentica" class="history-logo" />
       <div class="history-header-text">
         <div class="history-title">Researcher</div>
-        <div class="history-organization"><a href="https://rllm-project.com">rllm</a>/<a href="https://agentica-project.com">agentica</a></div>
+        <div class="history-organization"><a href="https://rllm-project.com">rLLM</a>/<a href="https://agentica-project.com">Agentica</a></div>
         <div class="history-date">Summer 2025-</div>
       </div>
     </div>
